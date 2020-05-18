@@ -39,7 +39,7 @@ def model(l):
 	maxx=0
 	for i in aa:
 		if a.count(i)>=maxx:
-			aaa.append([i,a.count(i)])
+			aaa.append(str(str(i)+" - "+str(a.count(i))))
 			maxx=a.count(i)
 	
 	return bottle.template('next.html',{'inputt1':aaa[::-1]})
