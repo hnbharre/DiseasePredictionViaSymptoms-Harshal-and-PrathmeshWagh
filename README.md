@@ -19,7 +19,7 @@ pip install -r requirements.txt
 Project involves several steps:
 
 1. Install dependencies -> pip install -r requirements.txt
-2. Run sample.py
+2. Run "python sample.py" on terminal
 3. Copy http://localhost:7777/ and paste it on browser
 4. Check the tool
 
