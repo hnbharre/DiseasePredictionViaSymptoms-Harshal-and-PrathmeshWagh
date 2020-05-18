@@ -12,13 +12,13 @@ Disease prediction tool using python
 
 ## Dependencies
 
-pip intsall -r requirements.txt
+pip install -r requirements.txt
     
 ## Project Steps
 
 Project involves several steps:
 
-1. Install dependencies -> pip intsall -r requirements.txt
+1. Install dependencies -> pip install -r requirements.txt
 2. Run sample.py
 3. Copy http://localhost:7777/ and paste it on browser
 4. Check the tool
