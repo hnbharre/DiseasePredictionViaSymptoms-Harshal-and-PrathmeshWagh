@@ -1,2 +1,2 @@
-# disease_prediction_tool
+# Disease_prediction_tool
 Disease prediction tool using python
