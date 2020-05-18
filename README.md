@@ -3,7 +3,7 @@ Disease prediction tool using python
 
 ## Initial setup
 1. Fork this project to your Github account.
-2. Locally clone your forked version to begin working on the project.
+2. Locally clone or download your forked version to begin working on the project.
 
 ## Prerequisites
 
