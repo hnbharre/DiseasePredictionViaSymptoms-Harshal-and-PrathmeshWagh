@@ -1,0 +1,166 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width= device-width , initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: 'Dosis' , sans-serif;
+}
+h1{
+	font-size: 2em;
+}
+h3{
+	font-size: 1em;
+}
+.chatbot{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.chatbot-content{
+	height: 350px;
+	width: 600px;
+	margin: 150px auto 0 auto;
+	align-items: center;
+	background-color: #bb7070d1;
+	opacity: 0.8;
+}
+.heading{
+	padding-top: 40px; 
+	text-align: center;
+	text-shadow: 2px 2px 5px;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.chat{
+	align-items: center;
+	text-align: center;
+}
+.symp1{
+	align-items: center;
+	text-align: center;
+	height: 35px;
+	width: 400px;
+	margin-top: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px 0 0 5px;
+	opacity: 0.8;
+}
+.chat button{
+	height: 35px;
+	width: 40px;
+	padding-top: -35px;
+	margin-left: -6px;
+	background-color: #c5b4b4;
+	border: 1px solid #ccc;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+@media screen and (max-width: 700px){
+	.chatbot-content{
+		height: 300px;
+		width: 400px;
+	}
+	.heading{
+		padding-top: 20px; 
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	.symp1{
+		height: 30px;
+		width: 250px;
+		margin-top: 40px;
+	}
+	.chat button{
+		height: 30px;
+		width: 40px;
+		margin-top: -30px;
+		margin-left: 290px;
+	}
+}
+@media screen and (max-width: 475px){
+	.chatbot-content{
+		height: 250px;
+		width: 350px;
+	}
+	.heading{
+		padding-top: 15px; 
+		font-size: 27px;
+		letter-spacing: 1px;
+	}
+	.symp1{
+		height: 25px;
+		width: 200px;
+		margin-top: 30px;
+	}
+	.chat button{
+		height: 25px;
+		width: 35px;
+		margin-top: -25px;
+		margin-left: 227px;
+		padding-top: 4px;
+	}
+}
+@media screen and (max-width: 375px){
+	.chatbot-content{
+		height: 200px;
+		width: 300px;
+	}
+	.heading{
+		padding-top: 13px; 
+		font-size: 22px;
+		letter-spacing: 0.5px;
+	}
+	.symp1{
+		height: 23px;
+		width: 180px;
+		margin-top: 20px;
+	}
+	.chat button{
+		height: 23px;
+		width: 35px;
+		margin-top: -23px;
+		margin-left: 212px;
+		padding-top: 4px;
+	}
+}
+@media screen and (max-height: 500px){
+	.chatbot-content{
+		margin: 100px auto 0 auto;
+	}
+}
+@media screen and (max-height: 420px){
+	.chatbot-content{
+		margin: 50px auto 0 auto;
+	}
+}
+@media screen and (max-height: 340px ){
+	.chatbot-content{
+		margin: 30px auto 0 auto;
+	}
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+<title>Healthcare</title>
+</head>
+<body>
+	<div class="chatbot">
+		<div class="chatbot-content">
+		<form class="chat">
+			<div class="heading"><h1>HEALTHIFY</h1></div>
+			{{inputt1}}
+			<br><br>
+			<button><i class="fa fa-search" id="search"></i></button>
+			<br><br>
+		</form>
+		</div>
+	</div>
+</body>
